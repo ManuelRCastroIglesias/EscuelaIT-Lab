@@ -1,11 +1,16 @@
-@canal Compañeros, por si a alguien le hace falta, creo que mas o menos estos serian los pasos resumidos:
-Pasos instalación node + npm + console-mpds
+ npm init install -g npm
+ npn init -y
+ npm install console-mpds
+
+
+@canal CompaÃ±eros, por si a alguien le hace falta, creo que mas o menos estos serian los pasos resumidos:
+Pasos instalaciÃ³n node + npm + console-mpds
 Instalar ejecutable descargado de node.js
 Abrir terminal en la carpeta donde quieras tener los ejercicios o en el repo...
 Ejecutar npm install -g npm para instalar npm globalmente.
 Ejecutar npn init -y para inicializar npm en ese folder.
-Ejecurar npm install console-mpds para instalar el paquete "console-mpds" que incluye los módulos necesarios para que funcione la "extensión" custom del método console by Luis.
-Crear archivo .js en ese folder o subfolders y añadir siempre las siguientes  líneas al principio:
+Ejecurar npm install console-mpds para instalar el paquete "console-mpds" que incluye los mÃ³dulos necesarios para que funcione la "extensiÃ³n" custom del mÃ©todo console by Luis.
+Crear archivo .js en ese folder o subfolders y aÃ±adir siempre las siguientes  lÃ­neas al principio:
 const { Console } = require("console-mpds");
 const console = new Console();
 Ejecuta node [nombre_archivo.js] en la terminal para ejecutar tu archivo js en consola.
